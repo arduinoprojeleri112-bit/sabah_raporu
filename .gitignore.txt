@@ -1,0 +1,40 @@
+# MacOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
+Desktop.ini
+
+# Linux / Unix geçici dosyaları
+*~
+
+# VSCode klasörü
+.vscode/
+
+# JetBrains IDE klasörü (IntelliJ, PyCharm, WebStorm, vs.)
+.idea/
+
+# Geçici dosyalar / loglar
+*.log
+*.tmp
+
+# Node.js modülleri (ileride eklenirse)
+node_modules/
+
+# Python cache (ileride kullanırsan)
+__pycache__/
+*.pyc
+
+# Sıkıştırılmış dosyalar
+*.zip
+*.tar.gz
+*.rar
+
+# Kişisel ayar veya config dosyaları
+.env
+.env.*
+
+# Diğer gereksiz dosyalar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
